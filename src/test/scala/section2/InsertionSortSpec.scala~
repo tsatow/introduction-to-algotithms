@@ -1,0 +1,9 @@
+package section2
+
+import org.scalatest._
+
+class InsertionSortSpec extends FlatSpec with Matchers {
+  "The Hello object" should "say hello" in {
+    InsertionSort(Array(5, 2, 4, 6, 1, 3)) shouldEqual
+  }
+}
