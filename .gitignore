@@ -1,6 +1,15 @@
+# Scala
 *.class
 target/
 *.log
+
+# Ensime
 .ensime
 .ensime_cache/
+
+# IntelliJ
 .idea/
+
+# Emacs
+*~
+\#*\#
